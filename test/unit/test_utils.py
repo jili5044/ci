@@ -13,12 +13,11 @@ class TestUtils(unittest.TestCase):
     def test_find_mean(self):
         A = [2, 2, 2, 2, 2, 2]
         mean = utils.find_mean(A)
-        self.assertEqual(A, 2)
-    
-    def test_find_mean(self):
-        A = [3, 3, 3, 3, 3]
+        self.assertEqual(mean, 2)
+
+        A = [3, 3, 3, 3]
         mean = utils.find_mean(A)
-        self.assertEqual(A, 3)
+        self.assertEqual(mean, 3)
     
     
     def test_linear_search(self):
