@@ -3,7 +3,10 @@ import numpy as np
 def find_mean(A)
     return np.mean(A)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 def linear_search(list_to_search, key):
     '''
     Inputs:
