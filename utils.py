@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def find_mean(A):
     return np.mean(A)
 
