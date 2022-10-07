@@ -20,9 +20,7 @@ def get_args():
 
 def main():
     args = get_args()
-
     L = random.sample(range(1, args.n*1000), args.n)
-
     linear_search_total_time = 0
     for i in range(args.num_searches):
         k = random.randint(1, args.n*1000)
